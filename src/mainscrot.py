@@ -1121,9 +1121,9 @@ class MainScrot:
         self.window.window.set_cursor(None)
         self.destroy(self.window)
         
-         # tipWindow
-        cmd = ('python', 'tipswindow.py', tipContent)
-        subprocess.Popen(cmd)
+        # tipWindow, some user think it annoying.
+        # cmd = ('python', 'tipswindow.py', tipContent)
+        # subprocess.Popen(cmd)
 
         
     def redraw(self, widget, event):
